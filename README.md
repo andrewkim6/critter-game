@@ -1,7 +1,8 @@
 
-# Ecosystem Game
+# Critter Ecosystem Game
 **The code for this game cannot be made public for academic plagarism purposes**
-Welcome to Ecosystem Game, an interactive and dynamic game where different critters inhabit a 2D grid. In this game, you'll encounter a variety of critters, each with unique behaviors and actions. The goal is to observe their interactions and see how they survive and thrive in their environment. 
+
+Welcome to the Critter Ecosystem Game, an interactive and dynamic game where different critters inhabit a 2D grid. In this game, you'll encounter a variety of critters, each with unique behaviors and actions. The goal is to observe their interactions and see how they survive and thrive in their environment. 
 
 Each critter has unique time skip function where some reproduce, move, or stay still. Every critter loses a set amount of energy each time skip. If this level drops below 0, they perish. Each critter also has a fight functios. Fights occur when critters land in the same space on the 2D grid. Critters also have unique fight functions where they can choose to run or fight. If they choose to fight, there is a random number roll and the critter that gets the higher number wins the fight and the other perishes.
 
@@ -19,7 +20,7 @@ Each critter has unique time skip function where some reproduce, move, or stay s
 
 **Goblin:** Goblins will take one step in any direction and reproduce if they have more than 150 energy. Goblins will also fight if landed on.
 
-Ecosystem Game provides an engaging and interactive experience, giving you insight into the dynamics of a simulated critter ecosystem. The game allows you to explore the behaviors of various critters, their interactions, and the impact of time on their survival.
+The Critter Ecosystem Game provides an engaging and interactive experience, giving you insight into the dynamics of a simulated critter ecosystem. The game allows you to explore the behaviors of various critters, their interactions, and the impact of time on their survival.
 
 The game is run through the main file. All other files are to support the game. In order to create a new critter, a new java file will have to be made. This is because the main.java file will parse all files in src and add only those of type critter.
 ## Tech Stack
